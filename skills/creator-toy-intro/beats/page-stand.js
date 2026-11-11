@@ -138,13 +138,13 @@ export function makeBeat({ opts, len, at, fov, aspect, page, signature, kit, mat
     storyboard: {
       part: {
         label: { "zh-Hant": "開場", "zh-Hans": "开场", en: "Opening" },
-        what: { "zh-Hant": "主頁好似螢幕咁平放，轉身拆開做企起嘅 slab，頭像鼓起，2.0 秒強拍彈出變公仔", "zh-Hans": "主页像屏幕一样平放，转身拆开成立起的 slab，头像鼓起，2.0 秒强拍弹出变公仔", en: "The page fills the frame like a screen, turns and parts into standing slabs; the picture bulges and the toy pops out on the 2.0 s downbeat" },
-        uses: { "zh-Hant": "佢嘅主頁同頭像", "zh-Hans": "创作者的主页和头像", en: "their page and picture" },
-        why: { "zh-Hant": "頭兩秒畀觀眾一個留低嘅理由：佢自己個主頁企起身", "zh-Hans": "头两秒给观众一个留下的理由：创作者自己的主页站了起来", en: "a reason to stay in the first two seconds: their own page stands up" },
+        what: { "zh-Hant": "主頁像螢幕一樣平放，轉身拆開成立起的 slab，頭像鼓起，2.0 秒強拍彈出變公仔", "zh-Hans": "主页像屏幕一样平放，转身拆开成立起的 slab，头像鼓起，2.0 秒强拍弹出变公仔", en: "The page fills the frame like a screen, turns and parts into standing slabs; the picture bulges and the toy pops out on the 2.0 s downbeat" },
+        uses: { "zh-Hant": "創作者的主頁和頭像", "zh-Hans": "创作者的主页和头像", en: "their page and picture" },
+        why: { "zh-Hant": "頭兩秒給觀眾一個留下的理由：創作者自己的主頁站了起來", "zh-Hans": "头两秒给观众一个留下的理由：创作者自己的主页站了起来", en: "a reason to stay in the first two seconds: their own page stands up" },
       },
       frames: [
-        { at: 0.3, title: { "zh-Hant": "主頁", "zh-Hans": "主页", en: "The page" }, what: { "zh-Hant": "主頁好似螢幕咁填滿畫面", "zh-Hans": "主页像屏幕一样填满画面", en: "The page fills the frame" } },
-        { at: TURN[1], title: { "zh-Hant": "拆開", "zh-Hans": "拆开", en: "It parts" }, what: { "zh-Hant": "主頁轉身，拆開做 slab", "zh-Hans": "主页转身，拆开成 slab", en: "The page turns and parts into slabs" } },
+        { at: 0.3, title: { "zh-Hant": "主頁", "zh-Hans": "主页", en: "The page" }, what: { "zh-Hant": "主頁像螢幕一樣填滿畫面", "zh-Hans": "主页像屏幕一样填满画面", en: "The page fills the frame" } },
+        { at: TURN[1], title: { "zh-Hant": "拆開", "zh-Hans": "拆开", en: "It parts" }, what: { "zh-Hant": "主頁轉身，拆開成 slab", "zh-Hans": "主页转身，拆开成 slab", en: "The page turns and parts into slabs" } },
         { at: POP + 0.15, title: { "zh-Hant": "彈出變公仔", "zh-Hans": "弹出变公仔", en: "The pop" }, what: { "zh-Hant": "頭像彈出變立體公仔", "zh-Hans": "头像弹出变立体公仔", en: "The toy puffs out of the picture" } },
       ],
       hits: [{ at: POP, label: { "zh-Hant": "彈出", "zh-Hans": "弹出", en: "pop" } }],

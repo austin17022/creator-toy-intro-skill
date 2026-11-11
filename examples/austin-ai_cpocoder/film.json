@@ -1,0 +1,512 @@
+{
+  "id": "ai-cpocoder",
+  "template": "isnail-30",
+  "theme": "threads-desktop",
+  "language": "zh-Hant",
+  "format": {
+    "fps": 30,
+    "bpm": 120,
+    "duration": 26,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "output": "out/ai-cpocoder.mp4",
+  "publish": [
+    "x"
+  ],
+  "source": {
+    "link": "https://www.threads.com/@ai_cpocoder",
+    "platform": null,
+    "read": "2026-11-06"
+  },
+  "step": "render",
+  "toy": "toy.json",
+  "recipes": [
+    "@avatar"
+  ],
+  "sound": "score",
+  "story": {
+    "segments": [
+      {
+        "story": [
+          0,
+          6
+        ]
+      },
+      {
+        "beat": "beats/skill-stack.js",
+        "bars": 4,
+        "why": "這一萬是一篇篇實測作品累積的時間軸（只標日期，不說哪篇帶來多少粉）",
+        "from": "2026-08-19",
+        "to": "2026-11-06",
+        "count": {
+          "to": 10965,
+          "label": "位粉絲",
+          "keys": [
+            [
+              "2026-08-19",
+              708
+            ],
+            [
+              "2026-09-08",
+              1049
+            ],
+            [
+              "2026-09-13",
+              2152
+            ],
+            [
+              "2026-09-22",
+              3751
+            ],
+            [
+              "2026-09-29",
+              5062
+            ],
+            [
+              "2026-10-19",
+              8182
+            ],
+            [
+              "2026-10-27",
+              10403
+            ],
+            [
+              "2026-11-06",
+              10965
+            ]
+          ]
+        },
+        "stamp": "破萬",
+        "cards": [
+          {
+            "file": "assets/work/step-web199.jpg",
+            "date": "2026-09-21"
+          },
+          {
+            "file": "assets/work/step-tennis.jpg",
+            "date": "2026-09-28"
+          },
+          {
+            "file": "assets/work/step-pinned.jpg",
+            "date": "2026-10-13"
+          },
+          {
+            "file": "assets/work/step-camera.jpg",
+            "date": "2026-10-18"
+          }
+        ]
+      },
+      {
+        "beat": "beats/sketchry-wall.js",
+        "bars": 3,
+        "why": "他每天實測的成果都做成能抄的 Skill，光是網站類就有 24 種（Sketchry 上的網站 Skill）",
+        "cards": [
+          "assets/sketchry/austin-studio",
+          "assets/sketchry/horlune",
+          "assets/sketchry/solenne",
+          "assets/sketchry/vesper",
+          "assets/sketchry/ember-table",
+          "assets/sketchry/cathode-desk",
+          "assets/sketchry/form-house",
+          "assets/sketchry/vellary"
+        ],
+        "count": {
+          "to": 24,
+          "label": "種網站 Skill"
+        },
+        "framesOf": {
+          "austin-studio": 150
+        }
+      },
+      {
+        "story": [
+          24,
+          "end"
+        ]
+      }
+    ],
+    "direction": {
+      "id": "eighty-days",
+      "title": "80 天，從 708 到一萬",
+      "premise": "8 月 19 日他只有 708 位粉絲；接下來 80 天，每個里程碑都對到一篇他實測的作品",
+      "heart": {
+        "who": "Austin",
+        "why": "每天實測一個 AI 用法，做出來就分享",
+        "forWhom": "想跟著用 AI 的一般人",
+        "moment": "學網球卡關，叫 Claude 做出動作實驗室（9/28，正好在 5,000 粉那週）",
+        "story": "s1"
+      },
+      "viewer": {
+        "who": "想經營自媒體、或想跟上 AI 的人",
+        "need": "想知道一個人怎麼靠 AI 實測內容長大",
+        "finds": "每天一篇實測，作品依時間排好",
+        "when": "想開始做 AI 內容的時候",
+        "next": "@ai_cpocoder"
+      },
+      "pitch": "80 天，每一篇實測都是一級台階",
+      "image": "公仔踩著自己作品疊成的樓梯，一路爬到一萬",
+      "opening": {
+        "id": "page-stand-left",
+        "why": "主頁立起後，公仔站在一張寫著 8/19 的日曆前"
+      },
+      "hook": {
+        "question": "80 天能做什麼？",
+        "visual": "日曆停在 8 月 19 日，數字 708",
+        "text": "8 月 19 日 · 708"
+      },
+      "beats": [
+        {
+          "story": "s3",
+          "role": "時間軸主幹",
+          "connection": "",
+          "action": {
+            "does": "日曆從 8/19 往前翻，每到一篇作品的發文日，那篇的封面就疊到公仔腳下，公仔踩上去；數字照當天紀錄跳到 10,965",
+            "means": "這一萬是一篇篇實測作品累積的時間軸（只標日期，不說哪篇帶來多少粉）"
+          }
+        },
+        {
+          "story": "s1",
+          "role": "路上最有人味的一篇",
+          "connection": "一萬人跟著看的是什麼？像 9/28 這篇：他自己卡關，就叫 AI 做工具",
+          "action": {
+            "does": "先浮出他的原話「最近學網球動作有點挫折」，821 格練習影片像底片從公仔腳下跑過，停在擊球那格，橘色和青色兩副骨架疊出來",
+            "means": "他的內容是自己卡關、自己叫 AI 做出來的工具"
+          },
+          "idea": 1
+        }
+      ],
+      "payoff": "觀眾看到一萬是一篇篇實測疊出來的，最後知道：每天實測一個 AI 用法，能抄的 Skill 在 sketchry.app",
+      "why": "數字故事最好懂，但容易變成炫耀粉絲數，人味只靠中段網球那一下",
+      "gaps": [
+        "粉絲成長和某篇作品之間只是時間相近，畫面只標日期，不寫因果"
+      ],
+      "cta": {
+        "slogan": [
+          "每天實測一個 AI 用法",
+          "能抄的 Skill 都在這"
+        ],
+        "prop": "Sketchry 的橘色裁切框標誌放大成舞台框，公仔坐在框角",
+        "sketch": "research/sketches/ending-1.jpg"
+      }
+    },
+    "exit": "jump",
+    "events": {
+      "glide": [
+        25.3,
+        26.9
+      ],
+      "letters": 25.35,
+      "final": 27.25,
+      "name": 27.25,
+      "crown": [
+        27.61,
+        27.87
+      ]
+    },
+    "camera2": [
+      {
+        "t": 24.3833,
+        "target": [
+          -0.4,
+          0.16,
+          0
+        ],
+        "dist": 1.05,
+        "elev": 9,
+        "az": 8,
+        "fstop": 9
+      },
+      {
+        "t": 25.2,
+        "target": [
+          -0.4,
+          0.21,
+          0
+        ],
+        "dist": 0.78,
+        "elev": 8,
+        "az": 12,
+        "fstop": 7
+      },
+      {
+        "t": 25.6,
+        "target": [
+          -0.3,
+          0.2,
+          0
+        ],
+        "dist": 0.85,
+        "elev": 8,
+        "az": 10,
+        "fstop": 7
+      },
+      {
+        "t": 26.5,
+        "target": [
+          -0.06,
+          0.15,
+          0
+        ],
+        "dist": 1.25,
+        "elev": 9,
+        "az": 4,
+        "fstop": 9
+      },
+      {
+        "t": 27.25,
+        "target": [
+          0.06,
+          0.15,
+          0.02
+        ],
+        "dist": 1.4,
+        "elev": 9,
+        "az": 0,
+        "fstop": 10
+      },
+      {
+        "t": 29,
+        "target": [
+          0.06,
+          0.15,
+          0.02
+        ],
+        "dist": 1.4,
+        "elev": 9,
+        "az": 0,
+        "fstop": 10
+      },
+      {
+        "t": 30,
+        "target": [
+          0.06,
+          0.15,
+          0.02
+        ],
+        "dist": 1.4,
+        "elev": 9,
+        "az": 0,
+        "fstop": 10
+      }
+    ]
+  },
+  "profile": {
+    "name": "Austin ｜Claude 認證 AI 架構師",
+    "handle": "ai_cpocoder",
+    "bio": [
+      "Claude 認證架構師",
+      "AI 企業顧問 x AI 系統開發",
+      "每天實測一個 AI 用法：網站、影片、台股、工具",
+      "能直接抄的 Skill 都在這 ↓"
+    ],
+    "avatar": "assets/avatar.jpg",
+    "meta": {
+      "link": "sketchry.app"
+    },
+    "tags": [
+      "AI Threads",
+      "台股"
+    ],
+    "followers": "1.0 萬",
+    "views": "374.2 萬"
+  },
+  "posts": {
+    "pinned": {
+      "date": "10月13日",
+      "title": "不懂寫 code 的人 現在也能一句話生出有動畫的網站",
+      "counts": [
+        "6",
+        "3",
+        "42",
+        "15,089"
+      ],
+      "count": "15,089",
+      "cover": "assets/pinned.jpg",
+      "kind": "video",
+      "shares": "31"
+    },
+    "retro": {
+      "date": "9月28日",
+      "title": "最近學網球動作有點挫折 直接叫 Claude 幫我做這個",
+      "counts": [
+        "665",
+        "219",
+        "3,797",
+        "23.6 萬"
+      ],
+      "count": "23.6 萬",
+      "cover": "assets/tennis.jpg",
+      "kind": "video",
+      "pinned": false,
+      "shares": "3,584"
+    }
+  },
+  "counter": {
+    "value": 15089,
+    "unit": "",
+    "label": "次瀏覽",
+    "display": "15,089"
+  },
+  "grid": [
+    {
+      "cover": "assets/web199-1.jpg",
+      "count": "15.3 萬"
+    },
+    {
+      "cover": "assets/camera.jpg",
+      "count": "16.5 萬"
+    },
+    {
+      "cover": "assets/stock.jpg",
+      "count": "17.5 萬"
+    },
+    {
+      "cover": "assets/wallpaper.jpg",
+      "count": "12.6 萬"
+    },
+    {
+      "cover": "assets/drone911.jpg",
+      "count": "86.4 萬"
+    }
+  ],
+  "cta": {
+    "prop": {
+      "idea": "Sketchry 的橘色裁切框標誌放大成舞台框，公仔坐在框角",
+      "module": "recipes/prop.js",
+      "colors": {
+        "tile": "#FFFFFF",
+        "ink": "#1A1A1C"
+      },
+      "text": "sketchry.app"
+    },
+    "slogan": [
+      {
+        "text": "每天實測一個 AI 用法",
+        "paper": "cream"
+      },
+      {
+        "text": "能抄的 Skill 都在這",
+        "paper": "red"
+      }
+    ],
+    "name": {
+      "text": "Austin",
+      "paper": "cream"
+    },
+    "handle": {
+      "text": "@ai_cpocoder",
+      "paper": "blue"
+    }
+  },
+  "toyFrom": [
+    "assets/avatar.jpg",
+    "assets/toyref/01-front.png",
+    "assets/toyref/02-left-90.png",
+    "assets/toyref/04-back.png"
+  ],
+  "type": {
+    "heavy": [
+      {
+        "family": "PingFang TC",
+        "style": "Semibold"
+      }
+    ],
+    "why": "Threads 介面和他的貼文截圖都是蘋方；繁體字筆畫多，半粗在手機小字還分得開（墨量 34%，三款裡最清楚）"
+  },
+  "_old_segments": [
+    [
+      {
+        "beat": "page-stand",
+        "bars": 2,
+        "turn": "left"
+      },
+      {
+        "beat": "beats/skill-stack.js",
+        "bars": 4,
+        "why": "這一萬是一篇篇實測作品累積的時間軸（只標日期，不說哪篇帶來多少粉）",
+        "from": "2026-08-19",
+        "to": "2026-11-06",
+        "count": {
+          "to": 10965,
+          "label": "位粉絲",
+          "keys": [
+            [
+              "2026-08-19",
+              708
+            ],
+            [
+              "2026-09-08",
+              1049
+            ],
+            [
+              "2026-09-13",
+              2152
+            ],
+            [
+              "2026-09-22",
+              3751
+            ],
+            [
+              "2026-09-29",
+              5062
+            ],
+            [
+              "2026-10-19",
+              8182
+            ],
+            [
+              "2026-10-27",
+              10403
+            ],
+            [
+              "2026-11-06",
+              10965
+            ]
+          ]
+        },
+        "stamp": "破萬",
+        "cards": [
+          {
+            "file": "assets/work/step-web199.jpg",
+            "date": "2026-09-21"
+          },
+          {
+            "file": "assets/work/step-tennis.jpg",
+            "date": "2026-09-28"
+          },
+          {
+            "file": "assets/work/step-pinned.jpg",
+            "date": "2026-10-13"
+          },
+          {
+            "file": "assets/work/step-camera.jpg",
+            "date": "2026-10-18"
+          }
+        ]
+      },
+      {
+        "beat": "beats/frame-count.js",
+        "bars": 3,
+        "why": "他的內容是自己卡關、自己叫 AI 做出來的工具",
+        "quote": "最近學網球動作有點挫折",
+        "frames": "assets/work/film",
+        "card": "assets/work/tennis-skeleton.jpg",
+        "count": {
+          "to": 821,
+          "label": "格畫面"
+        },
+        "sub": "33 個關節點",
+        "tag": "9/28 叫 Claude 做的"
+      },
+      {
+        "story": [
+          24,
+          "end"
+        ]
+      }
+    ]
+  ]
+}

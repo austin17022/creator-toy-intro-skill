@@ -1,3 +1,34 @@
+<div align="center">
+
+# creator-toy-intro · Austin 版
+
+**貼上 Threads／X 創作者的頁面，做出一支 3D 公仔自我介紹短片。**<br>
+繁體中文、Threads 桌面版畫面，加上 Austin 每次做片給過的修正。
+
+</div>
+
+> 這是 [ChrisHKAI/ChrisHKAI-Video](https://github.com/ChrisHKAI/ChrisHKAI-Video)（MIT）的改編版，引擎和做法都來自 Chris（[@ChrisHKAI](https://x.com/ChrisHKAI)），感謝原作者。
+
+## 跟原版不一樣的地方
+
+- **繁體中文**：模板裡的簡體、粵語文字轉成台灣用語，預設字體蘋方 TC 半粗
+- **Threads 桌面版畫面**：新增 `skills/creator-toy-intro/themes/threads-desktop/`
+- **修正紀錄**：[`references/austin-lessons.md`](skills/creator-toy-intro/references/austin-lessons.md) 收錄每一次修正（開頭要從頭像爬出來、作品要選對、數字要誠實⋯），之後的修正持續加進去
+- **範例**：[`examples/austin-ai_cpocoder/`](examples/austin-ai_cpocoder/) 是 Austin（Threads @ai_cpocoder）那支 26 秒的片
+
+## 安裝（Claude Code）
+
+```bash
+git clone https://github.com/austin17022/creator-toy-intro-skill.git ~/creator-toy-intro-skill
+ln -s ~/creator-toy-intro-skill/skills/creator-toy-intro ~/.claude/skills/creator-toy-intro
+```
+
+然後跟 Claude 說「幫我做一支自我介紹影片，用我的 Threads 帳號」。需要 Blender 和 Node.js，其餘照原版說明。
+
+---
+
+<sub>以下是原版說明 ↓</sub>
+
 > ⚠️ **Experimental Codex support — testers wanted.** The visual quality and results of a complete Codex-generated film have not yet been tested. Please help test the full workflow and [report your results in Issues](https://github.com/ChrisHKAI/ChrisHKAI-Video/issues), including your model/effort, OS/GPU, any problems, and a preview or film if you are happy to share it.
 
 <div align="center">

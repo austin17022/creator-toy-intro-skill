@@ -1,9 +1,13 @@
 ---
 name: creator-toy-intro
-description: Make a self-introduction film for a creator on X (30 s by default, as long as what it says), starring the creator as a smooth 3D vinyl toy that pops out of their profile page, rendered in Blender Cycles. Use when someone asks for a self-intro or intro video, 自我介绍视频, 自我介紹短片, 个人介绍片 or a creator intro with a 3D toy.
+description: Make a self-introduction film for a creator on X (30 s by default, as long as what it says), starring the creator as a smooth 3D vinyl toy that pops out of their profile page, rendered in Blender Cycles. Use when someone asks for a self-intro or intro video, 自我介绍视频, 自我介紹短片, 个人介绍片 or a creator intro with a 3D toy. Austin's fork: also for Threads profiles in Traditional Chinese (自我介紹影片、公仔介紹片、Threads 自介影片、做一支跟 ChrisHKAI 一樣的影片).
 ---
 
 # creator-toy-intro
+
+**Austin's fork, read first:** [references/austin-lessons.md](references/austin-lessons.md)
+holds every correction Austin has given and the rule that each new correction
+is written there and pushed to GitHub. Its rules win over the ones below.
 
 **Running in Codex:** first read [references/codex.md](references/codex.md)
 for skill paths, tools, previews and long-running commands. The film workflow
